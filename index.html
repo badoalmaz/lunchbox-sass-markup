@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.module.css" />
+    <title>LUNCHBOX</title>
+    <style>
+      @font-face {
+        font-family: Trailers; /* Имя шрифта */
+        src: url(./fonts/TTTrailers-Bold.ttf); /* Путь к файлу со шрифтом */
+      }
+      h1 {
+        font-family: Trailers;
+      }
+      @font-face {
+        font-family: Attila; /* Имя шрифта */
+        src: url(./fonts/Attila\ Sans\ Black.ttf); /* Путь к файлу со шрифтом */
+      }
+      .title,
+      .powerful {
+        font-family: Attila;
+      }
+      #menu {
+        font-family: Trailers;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ? ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <nav role="navigation">
+      <svg
+        viewBox="0 0 203 27"
+        fill="var(--black)"
+        xmlns="http://www.w3.org/2000/svg"
+        class="hide-on-mobile"
+      >
+        <defs></defs>
+        <g clip-path="url(#logo_svg__clip0)">
+          <path
+            d="M60 .8l5.5 18.5h-1.6L52 .8h-7V26h8.6L48.2 7.7h1.6l11.7 18.4h7.3V.8h-8.7zM7 21l10-1v6.1H0V.8h7V21zM18.2 15.8V.8h7.5l-.8 15c-.2 3.4 1.7 5.5 5.2 5.5s5.5-2 5.3-5.4L34.5.8H42v14.9c0 7.9-5 11-11.9 11-7 0-11.9-3-11.9-10.9zM123.7 26.1h-7.3l.6-9.8h-9.1l.6 9.8h-7.3V.8h7.3l-.6 9.9h9.1l-.6-10h7.3v25.4zM126.7 26.1V.8h12.7c5.8 0 8.4 2.6 8.4 6 0 3.9-3.4 5-7 5.2v1.9c3.9 0 7.6 2.1 7.6 5.8 0 3.7-2.9 6.4-8.5 6.4h-13.2zm7-14.9h4.2c2 0 3.3-1.2 3.3-3.2 0-1.9-1.2-2.8-3.3-2.8h-4.3v6zm0 10.4h4.8c2 0 3.3-1.1 3.3-3 0-2-1.2-3.2-3.3-3.2h-4.9v6.2zM149.3 13.4c0-8 5.9-13.4 14.3-13.4 8.5 0 14.3 5.4 14.3 13.4 0 8.2-5.8 13.4-14.3 13.4-8.4 0-14.3-5.2-14.3-13.4zm21.5 0c0-4.7-3-8-7.2-8s-7.2 3.3-7.2 8 3 8 7.2 8 7.2-3.3 7.2-8zM91.5 15.5c-.2 3.2-2.5 6-6.2 6-4.2 0-7-3.4-7-8 0-4.9 2.8-8.2 7-8.2 3.7 0 6 2.8 6.2 5.9l7.3-.3c-.2-7-6-10.9-13.5-10.9C76.8 0 71 5.3 71 13.4c0 8.2 5.7 13.5 14.2 13.5 7.5 0 13.3-4.1 13.5-11.1l-7.3-.3z"
+          ></path>
+          <path
+            d="M202.3.8H192v9h-1.7l-6-9H176l9.2 12.7L176 26h10.3V17h1.6l6 9.2h8.3l-9-12.6L202.3.8z"
+          ></path>
+        </g>
+        <defs>
+          <clipPath id="logo_svg__clip0">
+            <path fill="#fff" d="M0 0h202.3v26.8H0z"></path>
+          </clipPath>
+        </defs>
+      </svg>
+      <div id="menuToggle">
+        <input type="checkbox" />
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <a href="#"><li>PRODUCT</li></a>
+          <a href="#"><li>CLIENTS</li></a>
+          <a href="#"><li>RESOURCES</li></a>
+          <a href="#"><li>PRESS</li></a>
+          <a href="https://erikterwan.com/" target="_blank"><li>CAREERS</li></a>
+        </ul>
+      </div>
+
+      <button>
+        <marquee behavior="scroll" direction="" scrollamount="10">
+          BOOK A DEMO
+        </marquee>
+      </button>
+    </nav>
+    <!-- ? ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <header>
+      <h1 id="pink">
+        FOOD TECH FOR
+
+        <img class="header_hand" src="./svgs/hand.svg" alt="" />
+      </h1>
+      <span class="title">FOOD PEOPLE</span>
+      <div class="header_description">
+        The operating system for managing your restaurant’s entire <br />
+        digital experience. Lunchbox is your secret sauce for more – <br />
+        more guests, more orders, and more money.
+
+        <img class="header_animal" src="./svgs/animal.svg" alt="" />
+      </div>
+    </header>
+
+    <div class="home_image_container">
+      <img
+        class="slide"
+        src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F7Bgjj0WmyXu2TCHM2vXQpP%2F963cd1321ee95dbd1d728da024d29587%2FLB_Hero-1.jpg&w=2048&q=75"
+        alt=""
+      />
+      <img
+        class="slide"
+        src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F7udO4uSmr0t389GZyMiBSu%2F488c0ccead04fb1cd368b020176c66de%2FLB_Hero-3.jpg&w=3840&q=75"
+        alt=""
+      />
+      <img
+        class="slide"
+        src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F52S7oo7CUbfgEJGtQh4Nkp%2F2bc120b43bb980ab2ab33f4b35a0510a%2FLB_Hero-2.jpg&w=3840&q=75"
+        alt=""
+      />
+    </div>
+    <!-- ? ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="black_container">
+      <div class="marquee_slider">
+        <marquee behavior="alternate" direction="">
+          <img src="./svgs/marquee_svg/bareburger.svg" alt="" />
+          <img src="./svgs/marquee_svg/cleanjuice.svg" alt="" />
+          <img src="./svgs/marquee_svg/creating.svg" alt="" />
+          <img src="./svgs/marquee_svg/fuku.svg" alt="" />
+          <img src="./svgs/marquee_svg/handles.svg" alt="" />
+          <img src="./svgs/marquee_svg/mexicue.svg" alt="" />
+          <img src="./svgs/marquee_svg/stickys.svg" alt="" />
+          <img src="./svgs/marquee_svg/wings.svg" alt="" />
+          <img src="./svgs/marquee_svg/bareburger.svg" alt="" />
+          <img src="./svgs/marquee_svg/cleanjuice.svg" alt="" />
+          <img src="./svgs/marquee_svg/creating.svg" alt="" />
+          <img src="./svgs/marquee_svg/fuku.svg" alt="" />
+          <img src="./svgs/marquee_svg/handles.svg" alt="" />
+          <img src="./svgs/marquee_svg/mexicue.svg" alt="" />
+          <img src="./svgs/marquee_svg/stickys.svg" alt="" />
+          <img src="./svgs/marquee_svg/wings.svg" alt="" />
+        </marquee>
+      </div>
+
+      <p class="powerful">POWERFUL TOOLS MADE SIMPLE</p>
+      <div class="integrate_text">
+        <span class="yellow_text"> INTEGRATE EVERYTHING </span>
+        <span class="white_text">
+          YOU USE TO <br />
+          OPERATE YOUR RESTAURANT INTO <br />
+          ONE
+        </span>
+        <span class="yellow_text"> PERFECTLY PREPARED SYSTEM. </span>
+      </div>
+      <img class="burgerSvg" src="./svgs/burger.svg" alt="" />
+
+      <div class="ticks">
+        <div class="tick">
+          <img class="tickSvg" src="./svgs/tick.svg" alt="" />
+          <span>BUILT IN FLEXIBILITY</span>
+        </div>
+        <div class="tick">
+          <img class="tickSvg" src="./svgs/tick.svg" alt="" />
+          <span>TOTAL OWNERSHIP</span>
+        </div>
+        <div class="tick">
+          <img class="tickSvg" src="./svgs/tick.svg" alt="" />
+          <span>EVERYTHING YOU'VE EVER WANTED</span>
+        </div>
+      </div>
+    </div>
+    <!-- ? ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <div class="paralax_section">
+      <div class="paralax_container">
+        <!-- ! //////////////////////////////////////////// -->
+        <div class="paralax_ordering">
+          <div class="ordering_text">
+            <p class="title">ORDERING</p>
+            <p class="subtitle">OMNICHANNEL, OPTIMIZED</p>
+            <p class="info"
+              >Maximize ordering potential and make it easy for <br> customers to get
+              exactly what they want over <br> and over again. You’re welcome.</span
+            >
+            <br>
+            <button class="paralax_btn">LEARN MORE ABOUT ORDERING</button>
+          </div>
+          <div class="ordering_pic">
+            <img
+              src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2FBeJcYj8eqXB1Gq48lyvH0%2Ff4f43203b4097be4864227de1703f929%2FORDERING-1.jpg%3Ffm%3Djpg%26fl%3Dprogressive%26q%3D95&w=1200&q=75"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- ! ///////////////////////////////////////////// -->
+        <div class="paralax_marketing">
+          <div class="marketing_text">
+            <p class="title">MARKETING</p>
+            <p class="subtitle">STREAMLINED SIZZLE</p>
+            <p class="info"
+              >We start with data. Then we use it to create <br> brand loyalists with marketing that’s never <br> boring – and always perfectly placed.</span
+            >
+            <br>
+            <button class="paralax_btn">LEARN MORE ABOUT MARKETING</button>
+          </div>
+          <div class="marketing_pic">
+            <img
+              src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F2eCZWd0c0sSkXkmtxyDBCW%2F250ea685a9cbf8854a9b28c3488a9201%2FMARKETING-1.jpg%3Ffm%3Djpg%26fl%3Dprogressive%26q%3D95&w=1200&q=75"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- ! ///////////////////////////////////////////// -->
+        <div class="paralax_loyalty">
+          <div class="loyalty_text">
+            <p class="title">LOYALTY</p>
+            <p class="subtitle">BACK FOR MORE</p>
+            <p class="info"
+              >Hook your customers up with food perks, cash <br> perks, and all the perks you can imagine to keep <br> 'em coming back. After all, the fastest way to their <br> hearts is through their stomachs (and wallets).</span
+            >
+            <br>
+            <button class="paralax_btn">LEARN MORE ABOUT LOYALTY</button>
+          </div>
+          <div class="loyalty_pic">
+            <img
+              src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F39PtxTW0Y6n2rnuk1Z03Td%2Fb1f857b409cb457bd801a15f641b0910%2FLOYALTY-1.jpg%3Ffm%3Djpg%26fl%3Dprogressive%26q%3D95&w=1200&q=75"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- ! ///////////////////////////////////////////// -->
+
+        <div class="paralax_studio">
+          <div class="studio_text">
+            <p class="title">LB STUDIO</p>
+            <p class="subtitle">THE SECRET SAUCE</p>
+            <p class="info"
+              >With digital-first design that feels like your in- <br> store experience, every campaign and activation <br> looks as good as it is smart. Need help with <br> branding and design? We do that too.</span
+            >
+            <br>
+            <button class="paralax_btn">LEARN MORE ABOUT LB STUDIO</button>
+          </div>
+          <div class="studio_pic">
+            <img
+              src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F7B71xI2zDAiSz5GusNp7bn%2F5065e09670e530205d45accfa4ceff71%2FSTUDIO-1.jpg%3Ffm%3Djpg%26fl%3Dprogressive%26q%3D95&w=1200&q=75"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- ! ///////////////////////////////////////////// -->
+      </div>
+    </div>
+
+    <!-- ? ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <div class="marquees_container">
+        <div class="marquee">
+            <marquee behavior="alternate" direction="" scrolldelay=""  >
+               &nbsp;FINAGLE MORE BAGELS •&nbsp;DROP MORE BIBIMBAP •&nbsp;DEAL MORE CREOLE •&nbsp;SHOP MORE SOUP •&nbsp;BOOST MORE BURGERS •&nbsp;NOSH MORE NAAN •&nbsp;BUDGE MORE FUDGE •&nbsp;MOVE MORE MOMO •&nbsp;PUSH MORE PRETZELS •&nbsp;FLY MORE FRIES •&nbsp;SLING MORE WINGS •&nbsp;SELL MORE SLICES •&nbsp;DISH MORE FISH •&nbsp;FORK MORE PORK •&nbsp;CHUCK MORE DUCK •&nbsp;SAYONARA MORE SUSHI •&nbsp;VAMOOSE MORE JUICE •&nbsp;VAYA CON DIOS MORE BURRITOS • 
+            </marquee>
+        </div>
+
+        <div class="marquee">
+            <marquee behavior="alternate" direction="" scrolldelay="" >
+                DISH MORE FISH •&nbsp;FORK MORE PORK •&nbsp;CHUCK MORE DUCK •&nbsp;SAYONARA MORE SUSHI •&nbsp;VAMOOSE MORE JUICE •&nbsp;VAYA CON DIOS MORE BURRITOS •  nbsp;FINAGLE MORE BAGELS •&nbsp;DROP MORE BIBIMBAP •&nbsp;DEAL MORE CREOLE •&nbsp;SHOP MORE SOUP •&nbsp;BOOST MORE BURGERS •&nbsp;NOSH MORE NAAN •&nbsp;BUDGE MORE FUDGE •&nbsp;MOVE MORE MOMO •&nbsp;PUSH MORE PRETZELS •&nbsp;FLY MORE FRIES •&nbsp;SLING MORE WINGS •&nbsp;SELL MORE SLICES •&nbsp;
+            </marquee>
+        </div>
+
+
+        <div class="marquee">
+            <marquee behavior="alternate" direction="" scrolldelay="">
+                &nbsp;FINAGLE MORE BAGELS •&nbsp;DROP MORE BIBIMBAP •&nbsp;DEAL MORE CREOLE •&nbsp;SHOP MORE SOUP •&nbsp;BOOST MORE BURGERS •&nbsp;NOSH MORE NAAN •&nbsp;BUDGE MORE FUDGE •&nbsp;MOVE MORE MOMO •&nbsp;PUSH MORE PRETZELS •&nbsp;FLY MORE FRIES •&nbsp;SLING MORE WINGS •&nbsp;SELL MORE SLICES •&nbsp;DISH MORE FISH •&nbsp;FORK MORE PORK •&nbsp;CHUCK MORE DUCK •&nbsp;SAYONARA MORE SUSHI •&nbsp;VAMOOSE MORE JUICE •&nbsp;VAYA CON DIOS MORE BURRITOS • 
+            </marquee>
+        </div>
+
+
+
+        <div class="smarquee">
+            <marquee behavior="alternate" direction="" scrolldelay="">
+                DISH MORE FISH •&nbsp;FORK MORE PORK •&nbsp;CHUCK MORE DUCK •&nbsp;SAYONARA MORE SUSHI •&nbsp;VAMOOSE MORE JUICE •&nbsp;VAYA CON DIOS MORE BURRITOS •  nbsp;FINAGLE MORE BAGELS •&nbsp;DROP MORE BIBIMBAP •&nbsp;DEAL MORE CREOLE •&nbsp;SHOP MORE SOUP •&nbsp;BOOST MORE BURGERS •&nbsp;NOSH MORE NAAN •&nbsp;BUDGE MORE FUDGE •&nbsp;MOVE MORE MOMO •&nbsp;PUSH MORE PRETZELS •&nbsp;FLY MORE FRIES •&nbsp;SLING MORE WINGS •&nbsp;SELL MORE SLICES •&nbsp;
+            </marquee>
+        </div>
+    </div>
+   
+<!-- ? ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="resourses_container">
+<h3>RESOURCES</h3>
+<div class="resources_flex">
+
+
+
+        <div class="card">
+            <img src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F127clzslrzu3kCX16M5Alf%2F630ac68b38fed8e0d144d40f6a5d33e0%2F10_Food_Photography_Tips_for_Restaurants.jpg%3Ffm%3Djpg%26fl%3Dprogressive%26q%3D95&w=1200&q=75" alt="">
+            <div class="info">
+                <p class="subtitle">ARTICLE • MARKETING</p>
+                <p class="title">10 Not-So-Obvious Food <br> Photography Tips for <br> Restaurants</p>
+                <button>LEARN MORE</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F5iLtkVWKSIUAomX764jWVG%2Fae6afd3bb37ec0bd8f7422f81014adad%2FCustomer_Feedback.jpeg%3Ffm%3Djpg%26fl%3Dprogressive%26q%3D95&w=1200&q=75" alt="">
+            <div class="info"> <p class="subtitle">ARTICLE • FINANCE + METRICS </p>
+                <p class="title">25+ Restaurant Industry <br> Customer Statistics You <br> Must Know for 2022</p>
+                <button>LEARN MORE</button>
+                </div>
+        </div>
+        <div class="card">
+            <img src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F6BfqZHYDAHkyA8FmclJ30B%2F7641cfb5c67e94472d5eb30212adf534%2FPredictions_for_the_Future_of_Restaurant_Types.jpg%3Ffm%3Djpg%26fl%3Dprogressive%26q%3D95&w=1200&q=75" alt="">
+            <div class="info"> <p class="subtitle">EBOOK • MARKETING</p>
+                <p class="title">A Restaurant Marketer’s <br> Guide to Using Customer <br> Data for Promotions</p>
+                <button>LEARN MORE</button></div>
+        </div>
+    </div>
+     
+
+    </div>
+    <!-- ? ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+ <div class="quote_container">
+    <p>
+LUNCHBOX HAS <span>STREAMLINED </span>  <br> ORDERING AND MARKETING FOR US. <br> NOW WE'RE ABLE TO CREATE <br> <span>
+PERSONALIZED
+</span>  DIGITAL & SOCIAL <br> EXPERIENCES LIKE NEVER BEFORE.
+    </p>
+
+ 
+
+    <img src="./svgs/eye.svg" alt="">
+</div>
+
+ <!-- ? ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<div class="black">
+
+
+
+
+    <div class="schedule_container">
+        <div class="schedule_text">
+            <p class="subtitle">LET'S CHAT</p>
+            <p class="title">SCHEDULE A <br> PRODUCT TOUR</p>
+            <button class="schedule_btn">BOOK A DEMO</button>
+        </div>
+        
+        <div class="schedule_pic">
+            <img
+            src="https://lunchbox.io/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Ferglja63hoxc%2F7p4VmgyRoLJQe1HBCBDeRs%2F4f7174df5de03e6ea8801a32886fdef6%2FGlobal-Prefooter.jpg%3Ffm%3Djpg%26fl%3Dprogressive%26q%3D95&w=1200&q=75"
+            alt=""
+            />
+        </div>
+    </div>
+</div>
+
+
+
+<div class="footer"> 
+    <div class="social_media">
+        <div class="social_icon">
+            <img src="./svgs/twitter.svg" alt="">
+        </div>
+
+        <div class="social_icon">
+        <img src="./svgs/instagram.svg" alt="">
+    </div>
+    <div class="social_icon">
+        <img src="./svgs/linkedin.svg" alt="">
+    </div>
+    </div>
+
+
+    <div class="tongue">
+        <img src="./svgs/tongue.svg" alt="">
+    </div>
+    <button>
+
+        <marquee behavior="alternate" direction="" scrollamount=25>
+            BOOK A PRODUCT TOUR 
+        </marquee>
+        
+    
+    
+    </button>
+    <img src="./" alt="">
+    <div class="footerSvg">
+    <svg
+    viewBox="0 0 203 27"
+    fill="var(--black)"
+    xmlns="http://www.w3.org/2000/svg"
+    class="hide-on-mobile"
+    >
+    <defs></defs>
+    <g clip-path="url(#logo_svg__clip0)">
+      <path
+        d="M60 .8l5.5 18.5h-1.6L52 .8h-7V26h8.6L48.2 7.7h1.6l11.7 18.4h7.3V.8h-8.7zM7 21l10-1v6.1H0V.8h7V21zM18.2 15.8V.8h7.5l-.8 15c-.2 3.4 1.7 5.5 5.2 5.5s5.5-2 5.3-5.4L34.5.8H42v14.9c0 7.9-5 11-11.9 11-7 0-11.9-3-11.9-10.9zM123.7 26.1h-7.3l.6-9.8h-9.1l.6 9.8h-7.3V.8h7.3l-.6 9.9h9.1l-.6-10h7.3v25.4zM126.7 26.1V.8h12.7c5.8 0 8.4 2.6 8.4 6 0 3.9-3.4 5-7 5.2v1.9c3.9 0 7.6 2.1 7.6 5.8 0 3.7-2.9 6.4-8.5 6.4h-13.2zm7-14.9h4.2c2 0 3.3-1.2 3.3-3.2 0-1.9-1.2-2.8-3.3-2.8h-4.3v6zm0 10.4h4.8c2 0 3.3-1.1 3.3-3 0-2-1.2-3.2-3.3-3.2h-4.9v6.2zM149.3 13.4c0-8 5.9-13.4 14.3-13.4 8.5 0 14.3 5.4 14.3 13.4 0 8.2-5.8 13.4-14.3 13.4-8.4 0-14.3-5.2-14.3-13.4zm21.5 0c0-4.7-3-8-7.2-8s-7.2 3.3-7.2 8 3 8 7.2 8 7.2-3.3 7.2-8zM91.5 15.5c-.2 3.2-2.5 6-6.2 6-4.2 0-7-3.4-7-8 0-4.9 2.8-8.2 7-8.2 3.7 0 6 2.8 6.2 5.9l7.3-.3c-.2-7-6-10.9-13.5-10.9C76.8 0 71 5.3 71 13.4c0 8.2 5.7 13.5 14.2 13.5 7.5 0 13.3-4.1 13.5-11.1l-7.3-.3z"
+      ></path>
+      <path
+        d="M202.3.8H192v9h-1.7l-6-9H176l9.2 12.7L176 26h10.3V17h1.6l6 9.2h8.3l-9-12.6L202.3.8z"
+      ></path>
+    </g>
+    <defs>
+      <clipPath id="logo_svg__clip0">
+        <path fill="#fff" d="M0 0h202.3v26.8H0z"></path>
+      </clipPath>
+    </defs>
+    </svg>
+    </div>
+    <div class="lowest_foooter">
+        <span>NEW WAVE FOOD TECH</span>©2021 LUNCHBOX TECHNOLOGIES<span></span><span>SEND 3RD PARTY PACKING
+
+            </span>
+    </div>
+</div>
+
+
+
+
+    <script src="./main.js"></script>
+  </body>
+</html>
